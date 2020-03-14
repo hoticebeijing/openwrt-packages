@@ -2,5 +2,4 @@
 .DS_Store
 
 # dirs
-build_openwrt/
-devices_config/
+build/
