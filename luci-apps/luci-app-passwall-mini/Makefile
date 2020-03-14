@@ -5,7 +5,7 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=luci-app-passwall
+PKG_NAME:=luci-app-passwall-mini
 PKG_VERSION:=3.6
 PKG_RELEASE:=22
 PKG_DATE:=20200314
@@ -83,7 +83,7 @@ endef
 define Package/$(PKG_NAME)
   CATEGORY:=LuCI
   SUBMENU:=3. Applications
-  TITLE:=LuCI support for PassWall
+  TITLE:=LuCI support for PassWall Mini
   PKGARCH:=all
   DEPENDS:=+libmbedtls +iptables-mod-tproxy +ip +ipset +coreutils +coreutils-base64 +coreutils-nohup +luci-lib-jsonc \
   +wget +resolveip +unzip +dnsmasq-full +tcping +libuci-lua \
