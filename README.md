@@ -1,10 +1,8 @@
 # OpenWrt Packages
 
-> Stuart's OpenWrt Packages Source Code
+> Awesome OpenWrt Packages Source Code
 
 ---
-
-Reading: [gh-pages](https://stuarthua.github.io/oh-my-openwrt/)
 
 ## Thanks
 
