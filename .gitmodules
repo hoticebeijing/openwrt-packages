@@ -1,3 +1,0 @@
-[submodule "luci-apps/luci-app-autoreboot"]
-	path = luci-apps/luci-app-autoreboot
-	url = https://github.com/stuarthua/luci-app-autoreboot.git
