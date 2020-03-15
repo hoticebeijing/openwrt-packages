@@ -121,9 +121,11 @@ o.template = "shadowsocksr/ssrurl"
 o.value =sid
 
 o = s:option(ListValue, "type", translate("Server Node Type"))
-o:value("ssr", translate("ShadowsocksR"))
+if nixio.fs.access("/usr/bin/ssr-redir") then
+	o:value("ssr", translate("ShadowsocksR"))
+end
 if nixio.fs.access("/usr/bin/ss-redir") then
-o:value("ss", translate("Shadowsocks New Version"))
+o:value("ss", translate("Shadowsocks"))
 end
 if nixio.fs.access("/usr/bin/v2ray/v2ray") or nixio.fs.access("/usr/bin/v2ray") then
 o:value("v2ray", translate("V2Ray"))
