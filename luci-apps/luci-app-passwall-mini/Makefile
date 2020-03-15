@@ -16,26 +16,14 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)/config
 menu "Configuration"
-
-config PACKAGE_$(PKG_NAME)_INCLUDE_ipt2socks
-	bool "Include ipt2socks"
-	default y
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks
 	bool "Include Shadowsocks Redir (ss-redir)"
-	default n
-	
-config PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR
-	bool "Include ShadowsocksR Redir (ssr-redir)"
 	default y
-
+	
 config PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_socks
 	bool "Include Shadowsocks Socks (ss-local)"
-	default n
-	
-config PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR_socks
-	bool "Include ShadowsocksR Socks (ssr-local)"
-	default n
+	default y
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_V2ray
 	bool "Include V2ray"
@@ -43,15 +31,11 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_V2ray
 
 config PACKAGE_$(PKG_NAME)_INCLUDE_Trojan
 	bool "Include Trojan"
-	default n
-	
-config PACKAGE_$(PKG_NAME)_INCLUDE_Brook
-	bool "Include Brook"
-	default n
-	
-config PACKAGE_$(PKG_NAME)_INCLUDE_kcptun
-	bool "Include kcptun"
-	default n
+	default y
+
+config PACKAGE_$(PKG_NAME)_INCLUDE_ipt2socks
+	bool "Include ipt2socks"
+	default y
 
 config PACKAGE_$(PKG_NAME)_INCLUDE_haproxy
 	bool "Include haproxy"
@@ -68,14 +52,30 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_pdnsd
 config PACKAGE_$(PKG_NAME)_INCLUDE_dns2socks
 	bool "Include dns2socks"
 	default y
-	
-config PACKAGE_$(PKG_NAME)_INCLUDE_v2ray-plugin
-	bool "Include v2ray-plugin (Shadowsocks plugin)"
-	default n
 
-config PACKAGE_$(PKG_NAME)_INCLUDE_simple-obfs
-	bool "Include simple-obfs (Shadowsocks plugin)"
-	default n
+# config PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR
+# 	bool "Include ShadowsocksR Redir (ssr-redir)"
+# 	default n
+	
+# config PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR_socks
+# 	bool "Include ShadowsocksR Socks (ssr-local)"
+# 	default n
+	
+# config PACKAGE_$(PKG_NAME)_INCLUDE_Brook
+# 	bool "Include Brook"
+# 	default n
+	
+# config PACKAGE_$(PKG_NAME)_INCLUDE_kcptun
+# 	bool "Include kcptun"
+# 	default n
+	
+# config PACKAGE_$(PKG_NAME)_INCLUDE_v2ray-plugin
+# 	bool "Include v2ray-plugin (Shadowsocks plugin)"
+# 	default n
+
+# config PACKAGE_$(PKG_NAME)_INCLUDE_simple-obfs
+# 	bool "Include simple-obfs (Shadowsocks plugin)"
+# 	default n
 
 endmenu
 endef
