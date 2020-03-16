@@ -1,0 +1,57 @@
+[submodule "luci-apps/luci-app-arpbind"]
+	path = luci-apps/luci-app-arpbind
+	url = https://github.com/awesome-openwrt/luci-app-arpbind.git
+[submodule "luci-apps/luci-app-control-mia"]
+	path = luci-apps/luci-app-control-mia
+	url = https://github.com/awesome-openwrt/luci-app-control-mia.git
+[submodule "luci-apps/luci-app-control-timewol"]
+	path = luci-apps/luci-app-control-timewol
+	url = https://github.com/awesome-openwrt/luci-app-control-timewol.git
+[submodule "luci-apps/luci-app-control-webrestriction"]
+	path = luci-apps/luci-app-control-webrestriction
+	url = https://github.com/awesome-openwrt/luci-app-control-webrestriction.git
+[submodule "luci-apps/luci-app-control-weburl"]
+	path = luci-apps/luci-app-control-weburl
+	url = https://github.com/awesome-openwrt/luci-app-control-weburl.git
+[submodule "luci-apps/luci-app-fileassistant"]
+	path = luci-apps/luci-app-fileassistant
+	url = https://github.com/awesome-openwrt/luci-app-fileassistant.git
+[submodule "luci-apps/luci-app-ipsec-vpnserver"]
+	path = luci-apps/luci-app-ipsec-vpnserver
+	url = https://github.com/awesome-openwrt/luci-app-ipsec-vpnserver.git
+[submodule "luci-apps/luci-app-passwall"]
+	path = luci-apps/luci-app-passwall
+	url = https://github.com/awesome-openwrt/luci-app-passwall.git
+[submodule "luci-apps/luci-app-passwall-mini"]
+	path = luci-apps/luci-app-passwall-mini
+	url = https://github.com/awesome-openwrt/luci-app-passwall-mini.git
+[submodule "luci-apps/luci-app-pptp-vpnserver"]
+	path = luci-apps/luci-app-pptp-vpnserver
+	url = https://github.com/awesome-openwrt/luci-app-pptp-vpnserver.git
+[submodule "luci-apps/luci-app-ramfree"]
+	path = luci-apps/luci-app-ramfree
+	url = https://github.com/awesome-openwrt/luci-app-ramfree.git
+[submodule "luci-apps/luci-app-ssr-plus"]
+	path = luci-apps/luci-app-ssr-plus
+	url = https://github.com/awesome-openwrt/luci-app-ssr-plus.git
+[submodule "luci-apps/luci-app-ssr-plus-mini"]
+	path = luci-apps/luci-app-ssr-plus-mini
+	url = https://github.com/awesome-openwrt/luci-app-ssr-plus-mini.git
+[submodule "luci-apps/luci-app-syncthing"]
+	path = luci-apps/luci-app-syncthing
+	url = https://github.com/awesome-openwrt/luci-app-syncthing.git
+[submodule "luci-apps/luci-app-ttyd"]
+	path = luci-apps/luci-app-ttyd
+	url = https://github.com/awesome-openwrt/luci-app-ttyd.git
+[submodule "luci-apps/luci-app-usb-printer"]
+	path = luci-apps/luci-app-usb-printer
+	url = https://github.com/awesome-openwrt/luci-app-usb-printer.git
+[submodule "luci-apps/luci-app-vlmcsd"]
+	path = luci-apps/luci-app-vlmcsd
+	url = https://github.com/awesome-openwrt/luci-app-vlmcsd.git
+[submodule "luci-apps/luci-app-webadmin"]
+	path = luci-apps/luci-app-webadmin
+	url = https://github.com/awesome-openwrt/luci-app-webadmin.git
+[submodule "luci-apps/luci-app-xlnetacc"]
+	path = luci-apps/luci-app-xlnetacc
+	url = https://github.com/awesome-openwrt/luci-app-xlnetacc.git
