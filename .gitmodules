@@ -76,9 +76,6 @@
 [submodule "packages/microsocks"]
 	path = packages/microsocks
 	url = https://github.com/awesome-openwrt/microsocks.git
-[submodule "packages/openssl1.1"]
-	path = packages/openssl1.1
-	url = https://github.com/awesome-openwrt/openssl1.1.git
 [submodule "packages/pdnsd-alt"]
 	path = packages/pdnsd-alt
 	url = https://github.com/awesome-openwrt/pdnsd-alt.git
