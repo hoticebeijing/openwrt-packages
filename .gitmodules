@@ -40,9 +40,6 @@
 [submodule "luci-apps/luci-app-syncthing"]
 	path = luci-apps/luci-app-syncthing
 	url = https://github.com/awesome-openwrt/luci-app-syncthing.git
-[submodule "luci-apps/luci-app-ttyd"]
-	path = luci-apps/luci-app-ttyd
-	url = https://github.com/awesome-openwrt/luci-app-ttyd.git
 [submodule "luci-apps/luci-app-usb-printer"]
 	path = luci-apps/luci-app-usb-printer
 	url = https://github.com/awesome-openwrt/luci-app-usb-printer.git
