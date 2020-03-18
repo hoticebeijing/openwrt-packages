@@ -115,3 +115,6 @@
 [submodule "luci-apps/luci-app-sfe"]
 	path = luci-apps/luci-app-sfe
 	url = https://github.com/awesome-openwrt/luci-app-sfe.git
+[submodule "luci-apps/luci-app-flowoffload"]
+	path = luci-apps/luci-app-flowoffload
+	url = https://github.com/awesome-openwrt/luci-app-flowoffload.git
