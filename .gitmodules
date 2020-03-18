@@ -115,3 +115,6 @@
 [submodule "luci-apps/luci-app-flowoffload"]
 	path = luci-apps/luci-app-flowoffload
 	url = https://github.com/awesome-openwrt/luci-app-flowoffload.git
+[submodule "luci-apps/luci-app-autoreboot"]
+	path = luci-apps/luci-app-autoreboot
+	url = https://github.com/awesome-openwrt/luci-app-autoreboot.git
