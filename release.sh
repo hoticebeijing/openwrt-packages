@@ -15,8 +15,10 @@ echo "        2. change submodule to https url"
 echo
 
 change2git(){
+    git submodule set-url luci-apps/luci-app-aliddns git@github.com:awesome-openwrt/luci-app-aliddns.git
     git submodule set-url luci-apps/luci-app-arpbind git@github.com:awesome-openwrt/luci-app-arpbind.git
     git submodule set-url luci-apps/luci-app-autoreboot git@github.com:awesome-openwrt/luci-app-autoreboot.git
+    git submodule set-url luci-apps/luci-app-clash git@github.com:awesome-openwrt/luci-app-clash.git
     git submodule set-url luci-apps/luci-app-control-mia git@github.com:awesome-openwrt/luci-app-control-mia.git
     git submodule set-url luci-apps/luci-app-control-timewol git@github.com:awesome-openwrt/luci-app-control-timewol.git
     git submodule set-url luci-apps/luci-app-control-webrestriction git@github.com:awesome-openwrt/luci-app-control-webrestriction.git
@@ -24,10 +26,12 @@ change2git(){
     git submodule set-url luci-apps/luci-app-fileassistant git@github.com:awesome-openwrt/luci-app-fileassistant.git
     git submodule set-url luci-apps/luci-app-flowoffload git@github.com:awesome-openwrt/luci-app-flowoffload.git
     git submodule set-url luci-apps/luci-app-ipsec-vpnserver git@github.com:awesome-openwrt/luci-app-ipsec-vpnserver.git
+    git submodule set-url luci-apps/luci-app-openclash git@github.com:awesome-openwrt/luci-app-openclash.git
     git submodule set-url luci-apps/luci-app-passwall git@github.com:awesome-openwrt/luci-app-passwall.git
     git submodule set-url luci-apps/luci-app-passwall-mini git@github.com:awesome-openwrt/luci-app-passwall-mini.git
     git submodule set-url luci-apps/luci-app-pptp-vpnserver git@github.com:awesome-openwrt/luci-app-pptp-vpnserver.git
     git submodule set-url luci-apps/luci-app-ramfree git@github.com:awesome-openwrt/luci-app-ramfree.git
+    git submodule set-url luci-apps/luci-app-smartdns git@github.com:awesome-openwrt/luci-app-smartdns.git
     git submodule set-url luci-apps/luci-app-ssr-plus git@github.com:awesome-openwrt/luci-app-ssr-plus.git
     git submodule set-url luci-apps/luci-app-ssr-plus-mini git@github.com:awesome-openwrt/luci-app-ssr-plus-mini.git
     git submodule set-url luci-apps/luci-app-syncthing git@github.com:awesome-openwrt/luci-app-syncthing.git
@@ -50,6 +54,7 @@ change2git(){
     git submodule set-url packages/simple-obfs git@github.com:awesome-openwrt/simple-obfs.git
     git submodule set-url packages/syncthing git@github.com:awesome-openwrt/syncthing.git
     git submodule set-url packages/tcping git@github.com:awesome-openwrt/tcping.git
+    git submodule set-url packages/tcpping git@github.com:awesome-openwrt/tcpping.git
     git submodule set-url packages/trojan git@github.com:awesome-openwrt/trojan.git
     git submodule set-url packages/v2ray git@github.com:awesome-openwrt/v2ray.git
     git submodule set-url packages/v2ray-plugin git@github.com:awesome-openwrt/v2ray-plugin.git
@@ -57,8 +62,10 @@ change2git(){
 }
 
 change2https(){
+    git submodule set-url luci-apps/luci-app-aliddns https://github.com/awesome-openwrt/luci-app-aliddns.git
     git submodule set-url luci-apps/luci-app-arpbind https://github.com/awesome-openwrt/luci-app-arpbind.git
     git submodule set-url luci-apps/luci-app-autoreboot https://github.com/awesome-openwrt/luci-app-autoreboot.git
+    git submodule set-url luci-apps/luci-app-clash https://github.com/awesome-openwrt/luci-app-clash.git
     git submodule set-url luci-apps/luci-app-control-mia https://github.com/awesome-openwrt/luci-app-control-mia.git
     git submodule set-url luci-apps/luci-app-control-timewol https://github.com/awesome-openwrt/luci-app-control-timewol.git
     git submodule set-url luci-apps/luci-app-control-webrestriction https://github.com/awesome-openwrt/luci-app-control-webrestriction.git
@@ -66,10 +73,12 @@ change2https(){
     git submodule set-url luci-apps/luci-app-fileassistant https://github.com/awesome-openwrt/luci-app-fileassistant.git
     git submodule set-url luci-apps/luci-app-flowoffload https://github.com/awesome-openwrt/luci-app-flowoffload.git
     git submodule set-url luci-apps/luci-app-ipsec-vpnserver https://github.com/awesome-openwrt/luci-app-ipsec-vpnserver.git
+    git submodule set-url luci-apps/luci-app-openclash https://github.com/awesome-openwrt/luci-app-openclash.git
     git submodule set-url luci-apps/luci-app-passwall https://github.com/awesome-openwrt/luci-app-passwall.git
     git submodule set-url luci-apps/luci-app-passwall-mini https://github.com/awesome-openwrt/luci-app-passwall-mini.git
     git submodule set-url luci-apps/luci-app-pptp-vpnserver https://github.com/awesome-openwrt/luci-app-pptp-vpnserver.git
     git submodule set-url luci-apps/luci-app-ramfree https://github.com/awesome-openwrt/luci-app-ramfree.git
+    git submodule set-url luci-apps/luci-app-smartdns https://github.com/awesome-openwrt/luci-app-smartdns.git
     git submodule set-url luci-apps/luci-app-ssr-plus https://github.com/awesome-openwrt/luci-app-ssr-plus.git
     git submodule set-url luci-apps/luci-app-ssr-plus-mini https://github.com/awesome-openwrt/luci-app-ssr-plus-mini.git
     git submodule set-url luci-apps/luci-app-syncthing https://github.com/awesome-openwrt/luci-app-syncthing.git
@@ -92,6 +101,7 @@ change2https(){
     git submodule set-url packages/simple-obfs https://github.com/awesome-openwrt/simple-obfs.git
     git submodule set-url packages/syncthing https://github.com/awesome-openwrt/syncthing.git
     git submodule set-url packages/tcping https://github.com/awesome-openwrt/tcping.git
+    git submodule set-url packages/tcpping https://github.com/awesome-openwrt/tcpping.git
     git submodule set-url packages/trojan https://github.com/awesome-openwrt/trojan.git
     git submodule set-url packages/v2ray https://github.com/awesome-openwrt/v2ray.git
     git submodule set-url packages/v2ray-plugin https://github.com/awesome-openwrt/v2ray-plugin.git
