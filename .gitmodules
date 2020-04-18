@@ -112,3 +112,18 @@
 [submodule "luci-apps/luci-app-autoreboot"]
 	path = luci-apps/luci-app-autoreboot
 	url = git@github.com:awesome-openwrt/luci-app-autoreboot.git
+[submodule "luci-apps/luci-app-smartdns"]
+	path = luci-apps/luci-app-smartdns
+	url = git@github.com:awesome-openwrt/luci-app-smartdns.git
+[submodule "packages/tcpping"]
+	path = packages/tcpping
+	url = git@github.com:awesome-openwrt/tcpping.git
+[submodule "luci-apps/luci-app-aliddns"]
+	path = luci-apps/luci-app-aliddns
+	url = git@github.com:awesome-openwrt/luci-app-aliddns.git
+[submodule "luci-apps/luci-app-clash"]
+	path = luci-apps/luci-app-clash
+	url = git@github.com:awesome-openwrt/luci-app-clash.git
+[submodule "luci-apps/luci-app-openclash"]
+	path = luci-apps/luci-app-openclash
+	url = git@github.com:awesome-openwrt/luci-app-openclash.git
