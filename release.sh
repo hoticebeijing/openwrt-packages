@@ -52,6 +52,7 @@ change2git(){
     git submodule set-url packages/redsocks2 git@github.com:awesome-openwrt/redsocks2.git
     git submodule set-url packages/shadowsocksr-libev git@github.com:awesome-openwrt/shadowsocksr-libev.git
     git submodule set-url packages/simple-obfs git@github.com:awesome-openwrt/simple-obfs.git
+    git submodule set-url packages/smartdns git@github.com:awesome-openwrt/smartdns.git
     git submodule set-url packages/syncthing git@github.com:awesome-openwrt/syncthing.git
     git submodule set-url packages/tcping git@github.com:awesome-openwrt/tcping.git
     git submodule set-url packages/tcpping git@github.com:awesome-openwrt/tcpping.git
@@ -99,6 +100,7 @@ change2https(){
     git submodule set-url packages/redsocks2 https://github.com/awesome-openwrt/redsocks2.git
     git submodule set-url packages/shadowsocksr-libev https://github.com/awesome-openwrt/shadowsocksr-libev.git
     git submodule set-url packages/simple-obfs https://github.com/awesome-openwrt/simple-obfs.git
+    git submodule set-url packages/smartdns https://github.com/awesome-openwrt/smartdns.git
     git submodule set-url packages/syncthing https://github.com/awesome-openwrt/syncthing.git
     git submodule set-url packages/tcping https://github.com/awesome-openwrt/tcping.git
     git submodule set-url packages/tcpping https://github.com/awesome-openwrt/tcpping.git

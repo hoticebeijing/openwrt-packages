@@ -127,3 +127,6 @@
 [submodule "luci-apps/luci-app-openclash"]
 	path = luci-apps/luci-app-openclash
 	url = https://github.com/awesome-openwrt/luci-app-openclash.git
+[submodule "packages/smartdns"]
+	path = packages/smartdns
+	url = https://github.com/awesome-openwrt/smartdns.git
