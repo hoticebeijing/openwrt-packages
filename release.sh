@@ -15,6 +15,7 @@ echo "        2. change submodule to https url"
 echo
 
 change2git(){
+    git submodule set-url luci-apps/luci-app-adbyby-plus git@github.com:awesome-openwrt/luci-app-adbyby-plus.git
     git submodule set-url luci-apps/luci-app-aliddns git@github.com:awesome-openwrt/luci-app-aliddns.git
     git submodule set-url luci-apps/luci-app-arpbind git@github.com:awesome-openwrt/luci-app-arpbind.git
     git submodule set-url luci-apps/luci-app-autoreboot git@github.com:awesome-openwrt/luci-app-autoreboot.git
@@ -40,6 +41,7 @@ change2git(){
     git submodule set-url luci-apps/luci-app-webadmin git@github.com:awesome-openwrt/luci-app-webadmin.git
     git submodule set-url luci-apps/luci-app-xlnetacc git@github.com:awesome-openwrt/luci-app-xlnetacc.git
 
+    git submodule set-url packages/adbyby git@github.com:awesome-openwrt/adbyby.git
     git submodule set-url packages/brook git@github.com:awesome-openwrt/brook.git
     git submodule set-url packages/chinadns-ng git@github.com:awesome-openwrt/chinadns-ng.git
     git submodule set-url packages/ddns-scripts_aliyun git@github.com:awesome-openwrt/ddns-scripts_aliyun.git
@@ -63,6 +65,7 @@ change2git(){
 }
 
 change2https(){
+    git submodule set-url luci-apps/luci-app-adbyby-plus https://github.com/awesome-openwrt/luci-app-adbyby-plus.git
     git submodule set-url luci-apps/luci-app-aliddns https://github.com/awesome-openwrt/luci-app-aliddns.git
     git submodule set-url luci-apps/luci-app-arpbind https://github.com/awesome-openwrt/luci-app-arpbind.git
     git submodule set-url luci-apps/luci-app-autoreboot https://github.com/awesome-openwrt/luci-app-autoreboot.git
@@ -88,6 +91,7 @@ change2https(){
     git submodule set-url luci-apps/luci-app-webadmin https://github.com/awesome-openwrt/luci-app-webadmin.git
     git submodule set-url luci-apps/luci-app-xlnetacc https://github.com/awesome-openwrt/luci-app-xlnetacc.git
 
+    git submodule set-url packages/adbyby https://github.com/awesome-openwrt/adbyby.git
     git submodule set-url packages/brook https://github.com/awesome-openwrt/brook.git
     git submodule set-url packages/chinadns-ng https://github.com/awesome-openwrt/chinadns-ng.git
     git submodule set-url packages/ddns-scripts_aliyun https://github.com/awesome-openwrt/ddns-scripts_aliyun.git
