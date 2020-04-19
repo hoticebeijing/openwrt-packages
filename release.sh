@@ -27,6 +27,7 @@ change2git(){
     git submodule set-url luci-apps/luci-app-fileassistant git@github.com:awesome-openwrt/luci-app-fileassistant.git
     git submodule set-url luci-apps/luci-app-flowoffload git@github.com:awesome-openwrt/luci-app-flowoffload.git
     git submodule set-url luci-apps/luci-app-ipsec-vpnserver git@github.com:awesome-openwrt/luci-app-ipsec-vpnserver.git
+    git submodule set-url luci-apps/luci-app-netdata git@github.com:awesome-openwrt/luci-app-netdata.git
     git submodule set-url luci-apps/luci-app-openclash git@github.com:awesome-openwrt/luci-app-openclash.git
     git submodule set-url luci-apps/luci-app-passwall git@github.com:awesome-openwrt/luci-app-passwall.git
     git submodule set-url luci-apps/luci-app-passwall-mini git@github.com:awesome-openwrt/luci-app-passwall-mini.git
@@ -77,6 +78,7 @@ change2https(){
     git submodule set-url luci-apps/luci-app-fileassistant https://github.com/awesome-openwrt/luci-app-fileassistant.git
     git submodule set-url luci-apps/luci-app-flowoffload https://github.com/awesome-openwrt/luci-app-flowoffload.git
     git submodule set-url luci-apps/luci-app-ipsec-vpnserver https://github.com/awesome-openwrt/luci-app-ipsec-vpnserver.git
+    git submodule set-url luci-apps/luci-app-netdata https://github.com/awesome-openwrt/luci-app-netdata.git
     git submodule set-url luci-apps/luci-app-openclash https://github.com/awesome-openwrt/luci-app-openclash.git
     git submodule set-url luci-apps/luci-app-passwall https://github.com/awesome-openwrt/luci-app-passwall.git
     git submodule set-url luci-apps/luci-app-passwall-mini https://github.com/awesome-openwrt/luci-app-passwall-mini.git
