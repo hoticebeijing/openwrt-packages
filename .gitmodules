@@ -130,3 +130,9 @@
 [submodule "packages/smartdns"]
 	path = packages/smartdns
 	url = https://github.com/awesome-openwrt/smartdns.git
+[submodule "packages/adbyby"]
+	path = packages/adbyby
+	url = https://github.com/awesome-openwrt/adbyby.git
+[submodule "luci-apps/luci-app-adbyby-plus"]
+	path = luci-apps/luci-app-adbyby-plus
+	url = https://github.com/awesome-openwrt/luci-app-adbyby-plus.git
