@@ -1,5 +1,6 @@
 # OpenWrt Packages
-
+SSR+Passwall
+use src-git extraPackages https://github.com/hoticebeijing/openwrt-packages.git
 > Awesome OpenWrt Packages Source Code
 
 ---
